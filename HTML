@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcher Reisetyp bist du?</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+
+    <div class="overlay">
+
+        <nav>
+            <div class="logo">EXPLORE</div>
+            <button class="btn-primary">Quiz starten</button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Finde heraus,<br>wie du wirklich reist.</h1>
+
+            <p>
+                Beantworte einige Fragen und entdecke
+                deinen persönlichen Reisetyp.
+            </p>
+
+            <a href="#quiz" class="btn-primary">
+                Jetzt starten
+            </a>
+        </div>
+
+    </div>
+
+</header>
+
+<section id="quiz" class="quiz-section">
+
+    <h2>Was macht für dich eine perfekte Reise aus?</h2>
+
+    <div class="answers">
+
+        <div class="card" data-type="relax">
+            🌊
+            <h3>Entspannung</h3>
+            <p>Abschalten und genießen</p>
+        </div>
+
+        <div class="card" data-type="discover">
+            🏙️
+            <h3>Entdeckung</h3>
+            <p>Neue Städte & Kultur erleben</p>
+        </div>
+
+        <div class="card" data-type="adventure">
+            ⛰️
+            <h3>Abenteuer</h3>
+            <p>Action & Natur erleben</p>
+        </div>
+
+        <div class="card" data-type="freedom">
+            🍃
+            <h3>Freiheit</h3>
+            <p>Spontan unterwegs sein</p>
+        </div>
+
+    </div>
+
+    <button id="nextBtn" class="btn-primary">
+        Ergebnis anzeigen
+    </button>
+
+</section>
+
+<section id="result" class="result hidden">
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
